@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/google-gtag",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Google GTag for Nuxt.js",
   "license": "MIT",
   "contributors": [
@@ -13,6 +13,7 @@
   },
   "scripts": {
     "dev": "nuxt test/fixture/dev",
+    "build": "",
     "lint": "eslint --ext .js,.vue lib test",
     "test": "yarn lint && jest",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
